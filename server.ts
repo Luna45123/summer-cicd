@@ -7,7 +7,8 @@ app.use(cors())
 
 const helloworldHandler = new HelloHandler();
 
-app.get('/', helloworldHandler.handle)
+app.get('/', helloworldHandler.handle) 
+
 
 
 const PORT = process.env.PORT || 3000
